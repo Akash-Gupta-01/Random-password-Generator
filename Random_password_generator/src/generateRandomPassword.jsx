@@ -24,7 +24,7 @@ const PasswordGenerator = () => {
       <h1>Random Password Generator</h1>
       <label>
         Password Length:
-        <input
+        <input className='input'
           type="number"
           value={passwordLength}
           onChange={(e) => setPasswordLength(e.target.value)}
